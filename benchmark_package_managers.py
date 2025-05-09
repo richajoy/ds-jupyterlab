@@ -17,6 +17,7 @@ packages = [
     "matplotlib",         # Visualization
     "seaborn",            # Statistical visualization
     "scikit-learn",       # Machine learning
+    "transformers",       # Hugging Face transformers
     "pillow",             # Image processing
     "nltk",               # Natural language toolkit
     "pyyaml",             # YAML parser
