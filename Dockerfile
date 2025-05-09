@@ -41,9 +41,10 @@ RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
 # Make sure /usr/local/bin is in PATH for all environments
 ENV PATH="/usr/local/bin:${PATH}"
 
-# Copy environment definitions and setup script
+# Copy environment definitions, setup script, and benchmark tool
 COPY environments.yaml /home/${NB_USER}/environments.yaml
 COPY setup_envs.sh /home/${NB_USER}/setup_envs.sh
+COPY benchmark_package_managers.py /home/${NB_USER}/benchmark_package_managers.py
 
 # Make script executable and run it to create environments
 RUN chmod +x /home/${NB_USER}/setup_envs.sh && \
