@@ -17,7 +17,6 @@ A quickly updatable local environment for data science prototyping and Python de
 - **Package Manager Benchmarking**: Compare installation performance between pip, conda, and uv
 - **Dynamic Environment Configuration**: Easily add or modify environments through the `environments.yaml` file
 - **Reproducible Setup**: Consistent environment setup across different machines
-- **GPU Compatibility**: Automatically detects and utilizes available GPU resources based on host machine capabilities
 
 ## Version 1 (v1) Features
 
@@ -103,3 +102,4 @@ docker images jupyter-uv-ds
 # Run a specific version
 docker run -p 8889:8888 -d jupyter-uv-ds:v1
 ```
+![Demo Video](/Users/richardjoy/Desktop/2025.05.09_2555.mp4)
