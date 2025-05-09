@@ -102,4 +102,3 @@ docker images jupyter-uv-ds
 # Run a specific version
 docker run -p 8889:8888 -d jupyter-uv-ds:v1
 ```
-![Demo Video](/Users/richardjoy/Desktop/2025.05.09_2555.mp4)
